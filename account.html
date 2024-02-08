@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .navc {
+            margin: 70px;
+
+        }
+
+        .accountb {
+            padding: 10px 50px 10px 50px;
+            background-color: #0d6efd;
+            color: white;
+            border-radius: 5px;
+            border: 1px solid #0d6efd;
+            margin-left:50px ;
+        }
+
+        .commentb {
+            padding: 10px 50px 10px 50px;
+            background-color: #0d6efd;
+            color: white;
+            border-radius: 5px;
+            border: 1px solid #0d6efd;
+            margin-left:150px ;
+        }
+
+        .verifyb {
+            padding: 10px 50px 10px 50px;
+            background-color: #0d6efd;
+            color: white;
+            border-radius: 5px;
+            border: 1px solid #0d6efd;
+            margin-left:200px ;
+        }
+
+        .signupform {
+            margin-left: 100px;
+            margin-top: 50px;
+        }
+
+        .form {
+            margin-left: 50px;
+            margin-top: 50px;
+        }
+
+        .account {
+            width: 900px;
+            border-radius: 5px;
+            height: 400px;
+        }
+
+        #ffname {
+            margin: 20px;
+        }
+
+        #fname {
+            padding: 10px 50px 10px 50px;
+            margin: auto;
+            border-radius: 5px;
+            border: 1px solid #0d6efd;
+        }
+
+        #flname {
+            margin: 20px;
+        }
+
+        #lname {
+            padding: 10px 50px 10px 50px;
+            margin: auto;
+            border-radius: 5px;
+            border: 1px solid #0d6efd;
+        }
+
+        #fcity {
+            margin-left: 30px;
+        }
+
+        #city {
+            padding: 10px 80px 10px 80px;
+            margin-left: 40px;
+            border-radius: 5px;
+            border: 1px solid #0d6efd;
+        }
+
+        #pcity {
+            margin-top: 0;
+            margin-left: 100px;
+        }
+
+        #fcountry {
+            margin-left: 30px;
+        }
+
+        #country {
+            padding: 5px 50px 5px 50px;
+            border-radius: 5px;
+            border: 1px solid #0d6efd;
+            margin-left: 20px;
+        }
+
+        #fzip {
+            margin-left: 150px;
+        }
+
+        #file {
+            padding: 20px 50px 20px 50px;
+        }
+
+        #ctext {
+            margin-top: 30px;
+
+        }
+
+        .nextb {
+            padding: 10px 50px 10px 50px;
+            background-color: #0d6efd;
+            color: white;
+            border-radius: 5px;
+            border: 1px solid #0d6efd;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <form>
+            <div class="navc">
+                <a href="./account.html"><button type="button" class="accountb">Account</button></a>
+                <a href="./comment.html"><button type="button" class="commentb">Comment</button></a>
+                <a href="./verify.html"><button type="button" class="verifyb">Verify</button></a>
+            </div>
+            <div class="signupform">
+                <fieldset class="account">
+                    <legend width="30px"><strong>Account</strong></legend>
+                    <div class="form">
+                        <label for="firstname" id="ffname">First name</label>
+                        <input type="text" name="username" value="" placeholder="Maryam" id="fname">
+                        <label for="lastname" id="flname">Last name</label>
+                        <input type="text" name="username2" value="" placeholder="Afzal" id="lname"><br><br>
+
+                        <label for="city" id="fcity">City</label>
+                        <input type="text" id="city" placeholder="Karachi">
+                        <p id="pcity">! Please provide a valid city</p>
+
+                        <label for="country" id="fcountry">Country</label>
+                        <select name="country" id="country">
+                            <option value="choose" selected>Choose</option>
+                            <option value="Pakistan">Pakistan</option>
+                            <option value="India">India</option>
+                            <option value="England">England</option>
+                            <option value="London">London</option>
+                            <option value="Australia">Australia</option>
+                        </select>
+                    </div>
+                    <input type="checkbox" id="ctext">
+                    <label for="text">Agree to terms and condition</label> <br><br><br><br>
+                    <a href="./comment.html"> <button type="button" class="nextb">Next </button></a>
+                </fieldset>
+            </div>
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
